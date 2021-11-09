@@ -1,0 +1,81 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.fab:hover{
+    color: orangered;
+}
+.contact{
+    color: black;
+}
+.contact:hover{
+    color:orangered;
+}
+.carousel-item {
+    background-color: black;
+    height: 40rem;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid orangered;
+    color: white; 
+    background-color: orangered;
+}
+.circle:hover{
+    border: 2px solid orangered;
+    color: orangered;
+    background-color: transparent;
+    border-radius: 27px;
+    width: 55px;
+    height: 55px;
+    padding: 4px 4px;
+    background-color: white;
+    transition: 0.5s;
+}
+p1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+p1:hover{
+    color: orangered;
+}
+.round{
+    margin-left: 410px;
+    text-align: center;
+}
+.round p:hover{
+    width: 4em;
+    background-color: orangered;
+    color: black;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -1px 0px 27px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 24px -3px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.client-logo{
+    width:auto;
+    border: 1px solid transparent;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.media{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-left: 10px;
+    margin-right: 15px;
+}
